@@ -12,7 +12,13 @@ EncryptedDocumentException,	IOException
 {
 	
 	FileInputStream file=new FileInputStream("");
+	FileInputStream file1=new FileInputStream("");
+	FileInputStream file2=new FileInputStream("");
+
+
 	Sheet excelsheet=WorkbookFactory.create(file).getSheet("Sheet1");
 	return excelsheet.getRow(rowNum).getCell(colNum).getStringCellValue();
+	
+	
 }
 }
