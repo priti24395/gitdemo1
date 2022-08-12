@@ -18,7 +18,9 @@ EncryptedDocumentException,	IOException
 
 	Sheet excelsheet=WorkbookFactory.create(file).getSheet("Sheet1");
 	return excelsheet.getRow(rowNum).getCell(colNum).getStringCellValue();
-	
+	FileInputStream file2=new FileInputStream("");
+	FileInputStream file2=new FileInputStream("");
+	FileInputStream file2=new FileInputStream("");
 	
 }
 }
